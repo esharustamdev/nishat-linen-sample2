@@ -1,0 +1,30 @@
+.categoryContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.categoryDivImg img {
+  width: 32.8vw;
+}
+.categoryDivPara {
+  text-align: center;
+}
+.categoryDivPara p {
+  font-size: 1vw;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .categoryContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+  .categoryDivImg img {
+    width: 49.7vw;
+  }
+  .categoryDivPara p {
+    font-size: 2vw;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}

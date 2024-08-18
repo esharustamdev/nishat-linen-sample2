@@ -1,0 +1,14 @@
+.bannerImg img {
+  width: 98.9vw;
+}
+.bannerImg1 {
+  display: none;
+}
+@media (max-width: 768px) {
+  .bannerImg {
+    display: none;
+  }
+  .bannerImg1 img {
+    width: 100vw;
+  }
+}
